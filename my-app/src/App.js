@@ -58,7 +58,7 @@ function App() {
       <div className="InnerContainer">
         <form className="Form" onSubmit={formOperation.handleSubmit}>
           <label>Calculator 2023</label>
-          <label>Insert values</label>
+          <label className="Subtitle">Insert values</label>
           <div className="InputWrapper">
             <label>Value 1:</label>
             <input

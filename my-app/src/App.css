@@ -19,8 +19,8 @@
   padding: 1rem 4rem;
   border-radius: 1rem;
   box-shadow: 0 2px 8px rgba(15, 15, 15, 0.6);
-  background-color: #D8E6F2;
-  color: #0487D9;
+  background-color: #262626;
+  color: #F24405;
 }
 
 .Form{
@@ -33,6 +33,12 @@
   align-items: center;
 }
 
+.Subtitle{
+  margin-top: 15px;
+  font-size: x-large;
+  color: #F2F2F2;
+}
+
 .InputWrapper{
   font-size: medium;
   display: flex;
@@ -42,7 +48,7 @@
   margin: 1rem 0;
   align-content: center;
   align-items: center;
-  color: black;
+  color: #F2F2F2;
 }
 
 .ButtonLogIn{
@@ -53,11 +59,11 @@
   border-radius: 5px;
   padding: 10px 15px;
   margin: 5px 0 20px 0;
-  background-color: #0487D9;
+  background-color: #F25C05;
 }
 
 .ButtonLogIn:hover{
-  background-color: #0476D9;
+  background-color: #F24405;
 }
 
 .StyledInput{
@@ -70,7 +76,7 @@
 
 .StyledInput:hover{
   width: 100%;
-  border: 1px solid #0487D9;
+  border: 1px solid #F24405;
   border-radius: 5px;
   padding: 10px 15px;
   margin: 5px 0 20px 0;
@@ -86,7 +92,7 @@
 }
 
 .AlertError{
-  font-size: small;
+  font-size: large;
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
@@ -98,7 +104,7 @@
 }
 
 .AlertSuccess{
-  font-size: small;
+  font-size: large;
   color: #155724;
   background-color: #d4edda;
   border-color: #c3e6cb;
